@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right,#A3D990,#63B8D3);
+}
+
+.gameBox{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.gameArea{
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    background-image: url(./素材/bg.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.rule{
+    width: 25%;
+    height: 100%;
+    background-image: url(./素材/give.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+.score{
+    color: yellow;
+    font-family: kaiti;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.score span{
+    font-size: 30px;
+}
+
+.flyTime{
+    color: white;
+    font-family: kaiti;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.flyTime span{
+    font-size: 30px;
+}
+
+.btn{
+    width: 120px;
+    height: 50px;
+    background-image: url(./素材/play.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 60px);
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.me{
+    width: 106px;
+    height: 76px;
+    background-image: url(./素材/me.png);
+    position: absolute;
+    top: 70%;
+    left: calc(50% - 53px);
+    pointer-events: none;
+}
+
+.mask{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.bullet{
+    width: 10px;
+    height: 35px;
+    background-image: url(./素材/b.png);
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
